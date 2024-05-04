@@ -1,0 +1,27 @@
+﻿<Page x:Class="cpuCourseInformationModule.Page11"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:cpuCourseInformationModule"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page11">
+
+    <Grid Margin="0,0,-382,-238" Background="White">
+        <Rectangle Height="101" Stroke="Black" VerticalAlignment="Top" Fill="#FF0037C6"/>
+        <Image HorizontalAlignment="Left" Height="101" VerticalAlignment="Top" Width="113" Source="/kisspng-central-philippine-university-college-of-enginee-philippine-red-cross-logo-5b5e30cd385468.4612908715328995332307.png"/>
+        <Label Content="CPU CIM™" HorizontalAlignment="Left" Margin="115,22,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Copperplate Gothic Light" Foreground="#FFFDFDFD" Height="50"/>
+        <Button Content="Home" HorizontalAlignment="Left" Height="36" Margin="830,37,0,0" VerticalAlignment="Top" Width="91" Background="#FF0037C6" FontSize="22"/>
+        <Button Content="Settings" HorizontalAlignment="Left" Height="36" Margin="976,37,0,0" VerticalAlignment="Top" Width="90" Background="#FF0037C6" FontSize="22"/>
+        <Image HorizontalAlignment="Left" Height="562" Margin="21,120,0,0" VerticalAlignment="Top" Width="1129" Source="/chemical-engineer-chemistry-industry-zeolite-ionic-polymer-e1567409711514.jpg" Stretch="Fill" Opacity="0.6"/>
+        <Image HorizontalAlignment="Left" Height="129" Margin="49,149,0,0" VerticalAlignment="Top" Width="185" Source="/COE_Logo.png" Stretch="Fill"/>
+        <Label Content="College Of Engineering" HorizontalAlignment="Left" Margin="284,138,0,0" VerticalAlignment="Top" FontSize="35" FontFamily="Copperplate Gothic Bold" Height="50"/>
+        <Label Content="BSChE" HorizontalAlignment="Left" Margin="284,203,0,0" VerticalAlignment="Top" FontSize="35" FontFamily="Copperplate Gothic Light" Height="50"/>
+        <DataGrid HorizontalAlignment="Left" Height="420" Margin="300,258,0,0" VerticalAlignment="Top" Width="834" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Button Content="Upload File" HorizontalAlignment="Left" Height="64" Margin="49,354,0,0" VerticalAlignment="Top" Width="149" FontSize="20" BorderBrush="#FF060000" Foreground="White" OpacityMask="Black" Background="#FF02007B"/>
+        <Button Content="Refresh" HorizontalAlignment="Left" Height="65" Margin="49,436,0,0" VerticalAlignment="Top" Width="149" FontSize="20" Foreground="White" Background="#FF02007B"/>
+        <Button Content="Back" HorizontalAlignment="Left" Height="64" Margin="49,519,0,0" VerticalAlignment="Top" Width="149" FontSize="20" Foreground="White" Background="#FF02007B"/>
+
+    </Grid>
+</Page>

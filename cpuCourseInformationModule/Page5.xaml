@@ -1,0 +1,27 @@
+﻿<Page x:Class="cpuCourseInformationModule.Page5"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:cpuCourseInformationModule"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page5">
+
+    <Grid Background="White" Margin="0,0,-381,-232">
+        <Rectangle Height="98" Stroke="Black" VerticalAlignment="Top" Fill="#FF0037C6" Margin="0,0,-1,0"/>
+        <Image HorizontalAlignment="Left" Height="98" VerticalAlignment="Top" Width="113" Source="/kisspng-central-philippine-university-college-of-enginee-philippine-red-cross-logo-5b5e30cd385468.4612908715328995332307.png"/>
+        <Label Content="CPU CIM™" HorizontalAlignment="Left" Margin="115,21,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Copperplate Gothic Light" Foreground="#FFFDFDFD"/>
+        <Button Content="Home" HorizontalAlignment="Left" Height="35" Margin="830,36,0,0" VerticalAlignment="Top" Width="91" Background="#FF0037C6" FontSize="22"/>
+        <Button Content="Settings" HorizontalAlignment="Left" Height="35" Margin="976,36,0,0" VerticalAlignment="Top" Width="90" Background="#FF0037C6" FontSize="22"/>
+        <Image HorizontalAlignment="Left" Height="554" Margin="21,117,0,0" VerticalAlignment="Top" Width="1129" Source="/360_F_426719952_WtHWVePXzO2iBOdAX5IjGyCumcgj467Q.jpg" Stretch="Fill" Opacity="0.6"/>
+        <Image HorizontalAlignment="Left" Height="126" Margin="49,144,0,0" VerticalAlignment="Top" Width="185" Source="/CCS.jpg" Stretch="Fill"/>
+        <Label Content="College Of Computer Studies" HorizontalAlignment="Left" Margin="284,134,0,0" VerticalAlignment="Top" FontSize="35" FontFamily="Copperplate Gothic Bold"/>
+        <Label Content="BSIT" HorizontalAlignment="Left" Margin="284,197,0,0" VerticalAlignment="Top" FontSize="35" FontFamily="Copperplate Gothic Light"/>
+        <DataGrid HorizontalAlignment="Left" Height="407" Margin="300,250,0,0" VerticalAlignment="Top" Width="834" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Button Content="Upload File" HorizontalAlignment="Left" Height="62" Margin="49,342,0,0" VerticalAlignment="Top" Width="149" FontSize="20" BorderBrush="#FF060000" Foreground="Black" OpacityMask="Black"/>
+        <Button Content="Refresh" HorizontalAlignment="Left" Height="62" Margin="49,422,0,0" VerticalAlignment="Top" Width="149" FontSize="20"/>
+        <Button Content="Back" HorizontalAlignment="Left" Height="62" Margin="49,502,0,0" VerticalAlignment="Top" Width="149" FontSize="20"/>
+
+    </Grid>
+</Page>
