@@ -1,0 +1,46 @@
+﻿<Page x:Class="cpuCourseInformationModule.Page6"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:cpuCourseInformationModule"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page6">
+
+    <Grid Margin="0,0,-382,-238" Background="White">
+        <Rectangle Height="101" Stroke="Black" VerticalAlignment="Top" Fill="#FF0037C6"/>
+        <Image HorizontalAlignment="Left" Height="101" VerticalAlignment="Top" Width="113" Source="/kisspng-central-philippine-university-college-of-enginee-philippine-red-cross-logo-5b5e30cd385468.4612908715328995332307.png"/>
+        <Label Content="CPU CIM™" HorizontalAlignment="Left" Margin="115,22,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Copperplate Gothic Light" Foreground="#FFFDFDFD" Height="50"/>
+        <Button Content="Home" HorizontalAlignment="Left" Height="36" Margin="830,37,0,0" VerticalAlignment="Top" Width="91" Background="#FF0037C6" FontSize="22"/>
+        <Button Content="Settings" HorizontalAlignment="Left" Height="36" Margin="976,37,0,0" VerticalAlignment="Top" Width="90" Background="#FF0037C6" FontSize="22"/>
+        <Rectangle Height="558" Stroke="Black" VerticalAlignment="Top" Fill="#FFD9D9D9" Margin="21,120,32,0"/>
+        <Image HorizontalAlignment="Left" Height="129" Margin="49,149,0,0" VerticalAlignment="Top" Width="185" Source="/CCS.jpg" Stretch="Fill"/>
+        <Label Content="College Of Computer Studies" HorizontalAlignment="Left" Margin="284,138,0,0" VerticalAlignment="Top" FontSize="35" FontFamily="Copperplate Gothic Bold" Height="50"/>
+        <Button Margin="272,238,738,104" Opacity="0.6" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/graphic-design.jpg" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button Margin="480,238,530,104" Opacity="0.5" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="/Computer-Science-Engineering-Colleges-in-Indore.jpg" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button Margin="690,238,320,104" Opacity="0.6" Click="Button_Click_2">
+            <Button.Background>
+                <ImageBrush ImageSource="/360_F_426719952_WtHWVePXzO2iBOdAX5IjGyCumcgj467Q.jpg" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button Margin="912,238,98,104" Opacity="0.6">
+            <Button.Background>
+                <ImageBrush ImageSource="/library_book_shelf_light-1411091-1024x683.jpg" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Label Content="BSDMIA" HorizontalAlignment="Left" Margin="277,246,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Copperplate Gothic Bold" FontWeight="Bold"/>
+        <Label Content="BSCS" HorizontalAlignment="Left" Margin="483,246,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Copperplate Gothic Bold" FontWeight="Bold"/>
+        <Label Content="BSIT" HorizontalAlignment="Left" Margin="704,246,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Copperplate Gothic Bold" FontWeight="Bold"/>
+        <Label Content="BLIS" HorizontalAlignment="Left" Margin="923,246,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Copperplate Gothic Bold" FontWeight="Bold"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,53 @@
+﻿<Page x:Class="cpuCourseInformationModule.Pages.Home"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:cpuCourseInformationModule.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Home"
+      Background="#FF38383C">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="40"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="120"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Grid.Column="1" Grid.Row="1" FontSize="16" Foreground="#FFE0E0E0" Text="College: " Margin="4, 4, 4, 4" FontFamily="Arial"/>
+            <ComboBox Grid.Column="1" Grid.Row="2" Margin="-16, 4, -16, 4">
+                <ComboBoxItem Content="Computer Studies"></ComboBoxItem>
+                <ComboBoxItem Content="Accountancy"></ComboBoxItem>
+            </ComboBox>
+            <TextBlock Grid.Column="1" Grid.Row="8" FontSize="16" Foreground="#FFE0E0E0" Text="Program: " Margin="4, 4, 4, 4" FontFamily="Arial"/>
+            <ComboBox Grid.Column="1" Grid.Row="9" Margin="-16, 4, -16, 4"></ComboBox>
+            <TextBlock Grid.Column="1" Grid.Row="10" FontSize="16" Foreground="#FFE0E0E0" Text="Year: " Margin="4, 4, 4, 4" FontFamily="Arial"/>
+            <ComboBox Grid.Column="1" Grid.Row="11" Margin="-16, 4, -16, 4">
+                <ComboBoxItem Content="1st"></ComboBoxItem>
+                <ComboBoxItem Content="2nd"></ComboBoxItem>
+            </ComboBox>
+            <Button Grid.Column="1" Grid.Row="12" Margin="4" Content="Submit"></Button>
+
+        </StackPanel>
+        
+        
+
+
+        <Rectangle VerticalAlignment="Top" Grid.Column="0" Grid.Row="0" Height="40" Fill="#FF031269" Grid.ColumnSpan="11" Grid.RowSpan="2"/>
+        <TextBlock Grid.Column="0" Grid.Row="0" FontSize="20" Foreground="#FFE0E0E0" Text="Central Philippine University Course Information Module" Grid.ColumnSpan="7" Margin="5, 5, 0, 0" FontFamily="Times New Roman"/>
+
+    </Grid>
+    
+    
+</Page>
